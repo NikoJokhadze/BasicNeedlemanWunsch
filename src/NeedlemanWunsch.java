@@ -20,13 +20,25 @@ class NeedlemanWunsch {
                     case 'A':
                         nwTable[0][j + 2] = 'A';
                         break;
+                    case 'a':
+                        nwTable[0][j + 2] = 'A';
+                        break;
                     case 'C':
+                        nwTable[0][j + 2] = 'C';
+                        break;
+                    case 'c':
                         nwTable[0][j + 2] = 'C';
                         break;
                     case 'G':
                         nwTable[0][j + 2] = 'G';
                         break;
+                    case 'g':
+                        nwTable[0][j + 2] = 'G';
+                        break;
                     case 'T':
+                        nwTable[0][j + 2] = 'T';
+                        break;
+                    case 't':
                         nwTable[0][j + 2] = 'T';
                         break;
                     default:
@@ -38,13 +50,25 @@ class NeedlemanWunsch {
                 case 'A':
                     nwTable[i + 2][0] = 'A';
                     break;
+                case 'a':
+                    nwTable[i + 2][0] = 'A';
+                    break;
                 case 'C':
+                    nwTable[i + 2][0] = 'C';
+                    break;
+                case 'c':
                     nwTable[i + 2][0] = 'C';
                     break;
                 case 'G':
                     nwTable[i + 2][0] = 'G';
                     break;
+                case 'g':
+                    nwTable[i + 2][0] = 'G';
+                    break;
                 case 'T':
+                    nwTable[i + 2][0] = 'T';
+                    break;
+                case 't':
                     nwTable[i + 2][0] = 'T';
                     break;
                 default:
